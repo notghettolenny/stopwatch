@@ -1,0 +1,47 @@
+* {
+  font-family: sans-serif;
+}
+
+.stopwatch-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto 0;
+  width: fit-content;
+  padding: 10px;
+  box-shadow: 0 0px 2.2px rgba(0, 0, 0, 0.031), 0 0px 5.3px rgba(0, 0, 0, 0.044),
+    0 0px 10px rgba(0, 0, 0, 0.055), 0 0px 17.9px rgba(0, 0, 0, 0.066),
+    0 0px 33.4px rgba(0, 0, 0, 0.079), 0 0px 80px rgba(0, 0, 0, 0.11);
+  border-radius: 5px;
+}
+
+.stopwatch {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 60px;
+}
+
+.control-buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.control-buttons-wrapper button {
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  margin: 0 10px;
+  padding: 3px 8px;
+}
+.control-buttons-wrapper button:active {
+  opacity: 0.7;
+}
+#clear-button {
+  background: rgb(187, 187, 187);
+}
+#main-button {
+  background: rgb(0, 146, 231);
+}
